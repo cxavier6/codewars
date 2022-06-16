@@ -15,7 +15,6 @@ function wordsToMarks(string){
     
     for (let i = 0; i < string.length; i += 1) {
       result += (letras.indexOf(string[i]) + 1);
-    }
-    
+    } 
     return result;
   }
